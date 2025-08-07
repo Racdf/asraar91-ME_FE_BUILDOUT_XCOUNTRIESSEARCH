@@ -15,7 +15,7 @@ export default function Flags() {
   const [search, setSearch] = useState('');
 
   useEffect(() => {
-    fetch('https://countries-search-data-prod-812920491762.asia-south1.run.app/countries?q=a')
+    fetch('https://countries-search-data-prod-812920491762.asia-south1.run.app/countries')
       .then(res => res.json())
       .then(setCountries)
       .catch(err => console.error('Failed to fetch countries:', err));
