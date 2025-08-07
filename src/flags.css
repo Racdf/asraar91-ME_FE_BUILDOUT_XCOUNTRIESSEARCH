@@ -1,0 +1,57 @@
+.searchBar {
+  display: block;
+  margin: 5px auto 30px auto;
+  width: 100%;
+  max-width: 60%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.searchBar-BG {
+  background-color: #f8f8f8;
+  box-shadow: 0 6px 6px -4px rgba(0, 0, 0, 0.3);
+  margin: 2px 0px;
+  height: 50px;
+}
+
+.countriesGrid {
+  max-width: 1200px;
+  margin: 5px auto;
+  padding-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.countryCard {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.countryCard img {
+  width: 100%;
+  height: 60%;
+  border-radius: 4px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.countryCard p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
